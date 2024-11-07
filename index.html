@@ -5,8 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
 </head>
+<style>
+    .grow-on-hover {
+        width: 200px;
+        height: 200px;
+        background-color: lightblue;
+        transition: transform 0.3s ease; 
+    }
+    
+    .grow-on-hover:hover {
+        transform: scale(1.2); 
+    }
+</style>
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/banana Pudding.html">Banana Pudding</a>
+    <h1 style="text-align: center;">Odin Recipes</h1>
+    <div style="display: flex; gap: 150px; justify-content: center; margin-right: 100px;">
+        <div class="grow-on-hover">
+            <img src="https://www.allrecipes.com/thmb/XKubY0z2cSv0c0LTGJISzoJyoZI=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/AR-21398-banana-pudding-ddmfs-4x3-beauty-e33f07af31724ccb9b3912f58eb84ab7.jpg" style="width: 300px; height: auto;">
+            <br><a href="recipes/banana pudding.html">Banana Pudding</a> 
+        </div>
+        <div class="grow-on-hover">
+            <img src="https://www.allrecipes.com/thmb/Sy-p8IQD1rsdH80PYSlrCVEO2vk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/158140-Spaghetti-sauce-with-ground-beef-DDMFS-4x3-ce598bcb0b304eed966c81f95e24d57b.jpg" style="width: 300px; height: auto;">
+            <br><a href="recipes/spaghetti.html">Homemade Spaghetti Sauce with Ground Beef</a> 
+        </div>
+        <div class="grow-on-hover">
+            <img src="https://www.allrecipes.com/thmb/q3YzsTQGrs7K1bFiL7WjIvDetZo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8348272_Chili-Dog-Mac-and-Cheese_Chef-John_4x3-04dc2ab0533e45eeb2813509082d4867.jpg" style="width: 300px; height: auto;">
+            <br><a href="recipes/mac and cheese.html">Chili Dog Mac and Cheese</a> 
+        </div>
+    </div>
+    
 </body>
 </html>
